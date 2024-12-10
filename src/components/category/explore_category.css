@@ -1,0 +1,8 @@
+.category-section{
+    margin-top: 16px;
+}
+.items-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

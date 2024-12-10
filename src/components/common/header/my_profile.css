@@ -1,0 +1,47 @@
+.my-profile-wrapper {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-profile-logo{
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.my-profile-logo-img{
+    height: 150px;
+    width: 200px;
+    margin: auto;
+}
+.collection-title {
+  margin-bottom: 0px;
+}
+.profile-container {
+  border: 1px solid var(--border-white);
+  transition: box-shadow 0.3s;
+  border-radius: 15px;
+  height: 35rem;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.profile-container:hover{
+  background-color: var(--primary-bg);
+  border: 1px solid var(--border-white);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.profile-avatar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+  width: 6rem;
+}
+.profile-full-name{
+    display: flex;
+}

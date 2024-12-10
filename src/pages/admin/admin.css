@@ -1,0 +1,103 @@
+.dashboard-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+  background-color: var(--inactive-color);
+}
+.dashboard-container {
+  height: 3.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.title {
+  font-size: 22px;
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+}
+.stats-body {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.stats-container {
+  height: 180px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 2rem;
+}
+.stats-container:hover {
+  background-color: var(--primary-bg);
+  border: 1px solid var(--border-white);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.stats-container.green {
+  background: linear-gradient(to left, #4eda89, #1a9f53);
+}
+.stats-container.purple {
+  background: linear-gradient(to left, #ed68ff, #be0ee1);
+}
+.stats-container.blue {
+  background: linear-gradient(to left, #64b3f6, #2b77e5);
+}
+.stats-container.yellow {
+  background: linear-gradient(to left, #f4d02b, #e1940e);
+}
+.card-head {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.meta-data {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.meta-data span {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  display: block;
+}
+.account-circle {
+  width: 35px !important;
+  height: 35px !important;
+  line-height: 50px;
+  border-radius: 8px;
+}
+.account-circle.green {
+  color: #89ecb3;
+
+  background: linear-gradient(#27bf68, #1a9f53);
+}
+.account-circle.purple {
+  color: #f3a0ff;
+
+  background: linear-gradient(#de2fff, #be0ee1);
+}
+
+.account-circle.blue {      
+  color: #96cefa;
+
+  background: linear-gradient(#4094f1, #2b77e5);
+}
+.account-circle.yellow {
+  color: #f6e053;
+  background: linear-gradient(to left, #f4d02b, #e1940e);
+}
+.category-container {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right:2rem ;
+  width: 100%;
+}
